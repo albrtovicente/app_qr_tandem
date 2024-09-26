@@ -8,7 +8,7 @@ import QRCode from "qrcode.react";
 import { toPng, toJpeg, toSvg } from 'html-to-image';
 import download from "downloadjs";
 import CenteredTabs from "../componentes/tab/tab";
-import PopoverInstr from "../componentes/popovers/popoverInstr";
+import PopoverInstr from "../componentes/popovers/popoverinstr";
 import Pipiver from "../componentes/popovers/pipiver";
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
