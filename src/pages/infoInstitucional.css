@@ -1,0 +1,237 @@
+.flexintitucional{
+    display: flex;
+}
+.indiceInstitucional{
+    background-color: #e6e0e0;
+    padding-right: 40px;
+}
+.Iinstitucional{
+    margin-left: 40px;
+
+}
+.flexImg{
+ display: flex;
+ font-size: 20px;
+}
+.flexintitucional2{
+    display: flex;
+
+}
+.imgInst{
+    width: 500px;
+}
+.divaInst{
+    
+}
+.aInst {
+    align-self: stretch;
+    text-decoration: none;
+    color: black;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+.aInst:hover, .aInst:focus {
+    background-size: 100% 2px;
+}
+.imgInst{
+    align-items: center;
+  /* background-image: url("../componentes/images/texture4.jpg");
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 10px; */
+}
+
+
+
+/*********** RETRATOS OFICIALES*********************/
+.figure {
+    display: grid;
+    border-radius: 1rem;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .figure > * {
+    grid-area: 1/1;
+    transition: .4s;
+  }
+  .figure .figcaption {
+    display: grid;
+    align-items: end;
+    font-family: sans-serif;
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: #0000;
+    padding: .75rem;
+    background: var(--c,#0009);
+    clip-path: inset(0 var(--_i,100%) 0 0);
+    -webkit-mask:
+      linear-gradient(#000 0 0),
+      linear-gradient(#000 0 0);
+     
+    -webkit-mask-composite: xor;
+    -webkit-mask-clip: text, padding-box; 
+    margin: -1px;
+  }
+  .figure:hover .figcaption{
+    --_i: 0%;
+  }
+  .figure:hover .imgrey {
+    transform: scale(1.2);
+  }
+  @supports not (-webkit-mask-clip: text) {
+    .figure .figcaption {
+     -webkit-mask: none; 
+     color: #fff;
+    }
+  }
+  .Iinstitucional{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .cardRetrato{
+    display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  }
+  /* .cardRetrato {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    grid-auto-flow: column;
+    place-content: center;
+    background: #425a52;
+  } */
+
+
+/***********Administracion*****************/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.containerAdm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  background: #232427;
+}
+
+.containerAdm .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 40px 0;
+}
+
+.containerAdm .container .card {
+  position: relative;
+  min-width: 320px;
+  height: 440px;
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+    inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  margin: 30px;
+  transition: 0.5s;
+}
+
+.containerAdm .container .card:nth-child(1) .box .content a {
+  background: #2196f3;
+}
+
+.containerAdm .container .card:nth-child(2) .box .content a {
+  background: #e91e63;
+}
+
+.containerAdm .container .card:nth-child(3) .box .content a {
+  background: #23c186;
+}
+
+.containerAdm .container .card .box {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background: #2a2b2f;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.containerAdm .container .card .box:hover {
+  transform: translateY(-50px);
+}
+
+.containerAdm .container .card .box:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.containerAdm .container .card .box .content {
+  padding: 20px;
+  text-align: center;
+}
+
+.containerAdm .container .card .box .content h2 {
+  position: absolute;
+  top: -10px;
+  right: 30px;
+  font-size: 8rem;
+  color: rgba(255, 255, 255, 0.1);
+}
+
+.containerAdm .container .card .box .content h3 {
+  font-size: 1.8rem;
+  color: #fff;
+  z-index: 1;
+  transition: 0.5s;
+  margin-bottom: 15px;
+}
+
+.containerAdm .container .card .box .content p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.9);
+  z-index: 1;
+  transition: 0.5s;
+}
+
+.containerAdm .container .card .box .content a {
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  background: black;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  margin-top: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+.containerAdm .container .card .box .content a:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+  background: #fff;
+  color: #000;
+}

@@ -1,0 +1,20 @@
+.containerGuest{
+    text-align: center !important;
+    background-color: #fcfdff;
+    margin-top: 10px;
+}
+.tituloGuest {
+    font-family: Arial Black; 
+    font-weight: bold; font-size: 30px; 
+    background: #a05444; 
+    -webkit-background-clip: text; 
+    -moz-background-clip: text; 
+    background-clip: text; 
+    color: transparent; 
+}
+.parrafoGuest{
+  margin-left: 300px;
+  margin-right: 300px;
+  font-size: 40px;
+
+}

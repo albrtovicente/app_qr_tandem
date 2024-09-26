@@ -1,0 +1,79 @@
+.containerQr{
+background-color: white;
+border: 2px solid black;
+    
+     padding: 10px;
+     border-radius: 10px;
+     text-align: center;
+}
+.container2{
+  background-image: url("../images/texture4.jpg");
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 10px;
+} 
+.columnaCrear{
+    display: flex;
+}
+.linkCrear{
+    margin-left: auto;
+    
+}
+
+.tituloCrear{
+    margin-left: auto;
+}
+.contenidoqr{
+  background-color: rgb(219, 213, 191);
+  border: 2px solid rgb(0, 0, 0);
+  margin: 20px 80px 20px 80px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.container3{
+    display: flex;
+}
+.tituloQr{
+    margin-left: 50%;
+}
+.grupo1{
+    font-size: 24px;
+    font-weight: 900;
+    color: #4e517a;
+}
+.personalizarqr{
+    background-color: rgb(219, 213, 191);
+    border: 2px solid rgb(0, 0, 0);
+    margin: 20px 80px 20px 80px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.qr-contenido{
+    background-color: rgb(219, 213, 191);
+    border: 2px solid rgb(0, 0, 0);
+    margin: 20px 80px 20px 80px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.imgCrear{
+    width: 80px;
+    margin-left: auto;
+}
+
+.qr-opciones{
+    background-color: rgb(219, 213, 191);
+    border: 2px solid rgb(0, 0, 0);
+    /* margin: 20px 80px 20px 80px;
+    padding: 20px; */
+    border-radius: 10px;
+   
+    align-content: space-between;
+    display: flex;
+}
+.qrcreado, .qrcompartir{
+    margin-left: auto ; 
+    margin-top: 30px;
+}
+

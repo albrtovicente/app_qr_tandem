@@ -1,0 +1,26 @@
+.opciones{
+    background-color: #c0c78c;
+    text-align: center;
+}
+h5{
+    font-size: 24px;
+}
+
+.button {
+    font-size: 17px;
+    padding: 0.5em 2em;
+    border: transparent;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    background: #7A774E;
+    color: white;
+    border-radius: 4px;
+   }
+   
+   .button:hover {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(243, 239, 16) 0%, rgb(67, 155, 3) 100%);
+   }
+   
+   .button:active {
+    transform: translate(0em, 0.2em);
+   }

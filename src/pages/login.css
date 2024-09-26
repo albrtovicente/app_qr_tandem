@@ -1,0 +1,167 @@
+.fondoBlanco{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 300px;
+  margin-right: 300px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5%;
+  text-align: center !important;
+
+}
+.imagenAntigua{
+  background-image: url("../images/texture4.jpg");
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh ;
+} 
+
+/* LISTA */
+.lista li{
+  list-style: none;
+}
+.mail{
+  margin-top: 40px;
+  margin-left: 26%;    
+}
+.pass{
+  margin-top: 40px;
+  margin-left: 26%;
+    
+}
+/* *********** */
+
+
+/* ICONOS LISTA */
+/* .icono {
+  background-image: url('../images/correo.png');
+  background-repeat: no-repeat;
+  background-position: 4px center;
+  background-size: 20px;
+  display: flex;
+  
+  width: 300px;
+  padding-left: 28px;
+  height: 40px;
+  border: 1px solid #0971a3;
+  border-radius: 3px;
+  background-size: cover;
+}
+.icono input {
+  width: 100%;
+  font-size: 0.9em;
+  border: none;
+}
+.icono input:focus {
+  outline: none;
+} */
+
+
+.icono {
+  background-image: url('../images/correo.png');
+  background-repeat: no-repeat;
+  background-position: 4px center;
+  background-size: 20px;
+  display: flex;
+  /* align-items: center!important;  */
+  width: 300px;
+  padding-left: 28px;
+  height: 40px;
+  border: 1px solid #0971a3;
+  border-radius: 3px;
+}
+.icono input {
+  width: 100%;
+  font-size: 0.9em;
+  border: none;
+}
+.icono input:focus {
+  outline: none;
+}
+.icono2 {
+  background-image: url('../images/candado.png');
+  background-repeat: no-repeat;
+  background-position: 4px center;
+  background-size: 20px;
+  display: flex;
+  /* align-items: center!important;  */
+  width: 300px;
+  padding-left: 28px;
+  height: 40px;
+  border: 1px solid #0971a3;
+  border-radius: 3px;
+}
+.icono2 input {
+  width: 100%;
+  font-size: 0.9em;
+  border: none;
+}
+.icono2 input:focus {
+  outline: none;
+}
+.icono3 {
+  background-image: url('../images/acceso.png');
+  background-repeat: no-repeat;
+  background-position: 4px center;
+  background-size: 20px;
+  display: flex;
+  /* align-items: center!important;  */
+  width: 200px;
+  padding-left: 28px;
+  height: 40px;
+  border: 1px solid #0971a3;
+  border-radius: 3px;
+}
+.icono3 input {
+  width: 100%;
+  font-size: 0.9em;
+  border: none;
+}
+.icono3 input:focus {
+  outline: none;
+}
+
+.icono4 {
+  background-image: url('../images/delegacion.png');
+  background-repeat: no-repeat;
+  background-position: 4px center;
+  background-size: 20px;
+  display: flex;
+  /* align-items: center!important;  */
+  width: 300px;
+  padding-left: 28px;
+  height: 40px;
+  border: 1px solid #0971a3;
+  border-radius: 3px;
+}
+.icono4 input {
+  width: 100%;
+  font-size: 0.9em;
+  border: none;
+}
+.icono4 input:focus {
+  outline: none;
+}
+/* ICONOS LISTA */
+/* Boton ver contraseña */
+#viewPassword{
+  cursor:pointer;
+}
+/***********/
+
+#linkRegistrar{
+  margin-top: 120px;
+  font-size: 20px;
+}
+
+::placeholder {
+  color: rgb(56, 56, 65) !important;
+  font-size: 1em;
+}
+#linkRegistrar{
+  margin-top: 90px;
+}

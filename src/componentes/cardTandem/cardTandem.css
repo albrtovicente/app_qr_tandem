@@ -1,0 +1,27 @@
+.card1{
+    width: 100%;
+}
+
+/**************Card2***************/
+
+.card{
+    width: 18rem;
+    top: 70px;
+    bottom: 50px;
+}
+
+.card:hover{
+    box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.253) !important;
+}
+
+
+.card-text{
+    font-size: .9rem;
+    padding: 0.4rem
+}
+
+.container .row{
+    padding-top: -8px;
+    padding-bottom: 12px;
+    
+}

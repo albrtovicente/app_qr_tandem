@@ -1,0 +1,70 @@
+/****** PAGINA DE INICIO ********/
+.flexbutton{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2em;
+
+}
+.imagenFondo{
+  background-image: url("../../images/ara2.jpg");
+  background-size: cover;
+  height:65vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  opacity: 90%;
+}
+@media (max-width: 400px) {
+  .imagenFondo{
+    height:55vh;
+  }
+  
+}
+/****************************************/
+
+
+/****************TITULO************************/
+.titulo{
+  position: relative;
+  display: flex;
+  background-color: rgb(225, 225, 223);
+  width: 100%;
+
+  text-align: center;
+
+}
+#parrafotitulo{
+ font-size: large;
+ margin-left: 100px;
+ margin-right: 100px;
+}
+
+#imagenacceso{
+  margin-top: 10px;
+  margin: .5em;
+  width: 100px;
+}
+@media (max-width: 400px) {
+  #parrafotitulo{
+      font-size: 0px;
+  }
+  #imagenacceso{
+      visibility: hidden
+  }
+  #imagenacceso{
+      visibility: hidden;
+  }
+  .titulo{
+      display: none;
+  }
+  
+}
+/****************************************/
+
+
+
+
+
+
+
